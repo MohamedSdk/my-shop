@@ -1,0 +1,31 @@
+.products{
+    background: #F3F2F2;
+    margin-top: 20px;
+    &__header{
+        display: inline-block;
+        height: auto;
+        line-height: 36px;
+        width: 100%;
+        margin-top: 15px;
+        &-title{
+            float: left;
+        }
+        &-breadcrumb{
+            float: right;
+        }
+    }
+    .card{
+        width: 90%;
+        border: none;
+        .card-body{
+            background: #F3F2F2;
+            padding-left: 0px;
+            padding-top: 15px;
+        }
+        img{
+            margin: auto;
+            padding: 20px;
+            height: 200px;
+        }
+    }
+}

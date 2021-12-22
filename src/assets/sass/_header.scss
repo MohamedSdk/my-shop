@@ -1,0 +1,41 @@
+
+.navbar{
+   background: #fff;
+    .shoppingbasket{
+        @media only screen and (max-width: 600px){
+            margin-top: 40px;
+        }
+
+        &__logo{
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: super;
+            .numaddedproducts{
+                font-size: .6rem;
+                position: absolute;
+                right: 90px;
+                width: 15px;
+                height: 15px;
+                color: #fff;
+                background-color: #000;
+                border-radius: 50%;
+                text-align: center;
+                top: 64px;
+                @media only screen and (max-width: 600px){
+                    right: 312px;
+                    top: 192px;
+                }
+            }
+        }
+
+        &__summary{
+            display: inline-block;
+            span{
+                display: block;
+            }
+        }
+       
+
+    }
+   
+}
